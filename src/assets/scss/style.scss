@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffbbb4;
+    .App{
+        background: #71a95a;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 700px;
+        color: #eee;
+        .navbar{
+            padding: 10px 20px;
+            text-align: center;
+            background: #f35588;
+            h1{
+                margin: 10px 0;
+                width: 100%;
+            }
+            p{
+                width: 100%;
+                span{
+                    font-weight: bold;
+                    font-size: 2em;
+                }
+            }
+        }
+        .content{
+            text-align: center;
+            padding: 5vh;
+            .button-add{
+                background: #f35588;
+                color: #fff;
+                margin-top: 15px;
+            }
+        }
+        
+        .todo-list{
+            margin: 20px;
+            ul{
+                padding: 0;
+                list-style-type: none;
+            }
+            li{
+                background: #007944;
+                border-radius: 4px;
+                padding: 10px;
+                cursor: pointer;
+                margin: 10px 0;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+            .complete-square {
+                float: left;
+                padding: 20px;
+                font-size: 1.5em;
+            }
+            .complete-title {
+                font-weight: bold;
+            }
+            .title{
+                font-weight: bold;
+                color: #fff;
+                font-size: 1.2em;
+                padding-top: 5px;
+            }
+            .description{
+            font-size: 0.9em;
+            color: #ddd;
+            }
+            .card-right-items {
+                text-align: right;
+                .trash-icon {
+                    margin-top: 25px;
+                }
+            }
+        }
+        .empty{
+            margin: 20px;
+            text-align: center;
+        }
+        form{
+            padding: 20px;
+            input[type='text']{
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                margin: 6px 0;
+                background: #fff4e4;
+                color: #000;
+                border: 0;
+            }
+
+        }
+    }
+}
+
+  
